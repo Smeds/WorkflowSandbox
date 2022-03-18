@@ -14,7 +14,8 @@ jobs:
         with:
           default-branch: main
           release-type: python
-          path: test/testar
+          package: testar
+          path: test
           extra-files: |
             __init__.py
       - uses: actions/checkout@v2
