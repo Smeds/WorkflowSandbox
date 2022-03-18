@@ -13,8 +13,8 @@ jobs:
         id: release
         with:
           default-branch: main
-          extra-files: |
-             test/testar/__init__.py
+          release-type: python
+          path: test/testar
       - uses: actions/checkout@v2
         if: ${{ steps.release.outputs.release_created }}
         with:
