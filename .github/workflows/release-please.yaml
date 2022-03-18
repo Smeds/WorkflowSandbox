@@ -14,7 +14,7 @@ jobs:
         with:
           default-branch: main
           release-type: python
-          package: testar
+          package-name: testar
           path: test
           extra-files: |
             __init__.py
