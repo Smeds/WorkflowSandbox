@@ -14,6 +14,8 @@ jobs:
         with:
           default-branch: main
           release-type: python
+          package-name: test
+          
       - uses: actions/checkout@v2
         if: ${{ steps.release.outputs.release_created }}
         with:
