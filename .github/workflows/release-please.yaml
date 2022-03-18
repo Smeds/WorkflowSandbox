@@ -13,10 +13,10 @@ jobs:
         id: release
         with:
           release-type: python
-          package-name: sandbox
+          package-name: test
           default-branch: main
           extra-files: |
-             test/__init__.py
+             __init__.py
       - uses: actions/checkout@v2
         if: ${{ steps.release.outputs.release_created }}
         with:
