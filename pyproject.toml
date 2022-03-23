@@ -1,7 +1,7 @@
 [project]
 name = "titanic_ml"
 description = "titanic_ml example package"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
     { name = "Niels Zeilemaker", email = "nielszeilemaker@godatadriven.com" }
 ]
